@@ -16,7 +16,6 @@ namespace pandemic
 
         Scientist(pandemic::Board board ,pandemic::City city, unsigned int n);
         ~Scientist();
-        // void discover_cure(pandemic::Color color);
 
       
     };

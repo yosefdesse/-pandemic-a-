@@ -20,10 +20,8 @@ namespace pandemic
         ~Board();
         bool is_clean();
         void  remove_cures();
-        // void operator[](pandemic::City city , unsigned int degree);
         int&  operator [] (City city);
         friend ostream& operator<<(ostream& os,const Board& b);
-        // void  Board :: operator[](pandemic::City city , unsigned int degree);
 
     };
     

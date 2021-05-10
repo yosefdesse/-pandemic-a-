@@ -14,7 +14,7 @@ namespace pandemic
         City city_at;
         Color city_color;
 
-        GeneSplicer(pandemic::Board board, pandemic::City city): Player(board, city){};
+        GeneSplicer(pandemic::Board board, pandemic::City city);
         ~GeneSplicer();
         // void discover_cure(pandemic::Color color);
 

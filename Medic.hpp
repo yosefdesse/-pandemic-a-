@@ -14,7 +14,7 @@ namespace pandemic
         City city_at;
         Color city_color;
 
-        Medic(pandemic::Board board , pandemic::City city): Player(board, city){};
+        Medic(pandemic::Board board , pandemic::City city);
         ~Medic();
         void discover_cure(pandemic::Color color);
         void treat(pandemic::City city);

@@ -9,6 +9,7 @@ namespace pandemic
 {
     Player :: Player(Board& board, City city){}
 
+    Player :: Player(Board& board, City city, unsigned n){}
 
     Player :: ~Player(){}
 
@@ -54,10 +55,7 @@ namespace pandemic
         return (*this);
 
     }
-    // Player& Player::build(pandemic::City city)
-    // {
 
-    // }
     Player& Player::build()
     {
         return (*this);

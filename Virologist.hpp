@@ -15,8 +15,6 @@ namespace pandemic
 
         Virologist(pandemic::Board board ,pandemic::City city);
         ~Virologist();
-        // void treat(pandemic::City city);
-
       
     };
 

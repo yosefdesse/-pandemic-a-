@@ -18,8 +18,6 @@ namespace pandemic
         Researcher(pandemic::Board board ,pandemic::City city);
         ~Researcher();
       
-        // void discover_cure(pandemic::Color color);
-      
     };
 
 }

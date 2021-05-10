@@ -4,6 +4,7 @@
 #include "Board.hpp"
 #include "Color.hpp"
 #include "City.hpp"
+#include "Player.hpp"
 
 
 namespace pandemic
@@ -16,9 +17,7 @@ namespace pandemic
 
         FieldDoctor(pandemic::Board board ,pandemic :: City city);
         ~FieldDoctor();
-        // void treat(pandemic::City city);
 
-      
     };
 
 }
